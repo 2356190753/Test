@@ -3,14 +3,17 @@
 <head>
     <title>Title</title>
 </head>
-<%!
-    String url="2.jsp";
+<body>
+    <%!
+    String url="1.jsp";
 
 %>
 <body>
+<img src="3.png">
 
 <form  action="<%=url%>">
-    <input type="submit" value="结账"/>
+    <input type="submit" value="购买"/>
+
 </form>
 </body>
 </html>

@@ -3,14 +3,7 @@
 <head>
     <title>Title</title>
 </head>
-<%!
-    String url="2.jsp";
-
-%>
 <body>
-
-<form  action="<%=url%>">
-    <input type="submit" value="结账"/>
-</form>
+<h1>结账成功</h1>
 </body>
 </html>
